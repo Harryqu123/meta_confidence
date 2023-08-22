@@ -54,4 +54,4 @@ Execute the following command for training on CIFAR-10:
 
 
 ## Acknowledgements
-As mentioned above, this project is based on [ConfidNet](https://github.com/valeoai/ConfidNet). We thank the authors of ConfidNet for releasing the codes. Besides, we also thank the authors of the package [learn2learn](https://github.com/learnables/learn2learn) for developing learn2learn, a software library for meta-learning research.
+As mentioned above, this project is based on [ConfidNet](https://github.com/valeoai/ConfidNet). We thank the authors of ConfidNet for releasing the codes. Besides, we also thank the authors of the package [learn2learn](https://github.com/learnables/learn2learn).
