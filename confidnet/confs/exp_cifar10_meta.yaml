@@ -1,0 +1,38 @@
+# Data parameters
+data:
+    dataset: cifar10
+    data_dir: data/cifar10-data
+    input_size: [32,32]
+    input_channels: 3
+    num_classes: 10
+    valid_size: 0.1
+
+# Training parameters
+training:
+    output_folder: INSERT YOUR OWN PATH HERE
+    task: classification
+    learner: selfconfidmeta
+    nb_epochs: 500
+    batch_size: 128
+    loss:
+        name: selfconfid_mse
+        weighting: 1
+    optimizer:
+        name: adam
+        lr: 0.00001
+    lr_schedule:
+    ft_on_val: False
+    metrics: ['accuracy', 'ap_errors', 'ap_success', 'auc']
+    pin_memory: False
+    num_workers: 3
+    augmentations:
+        hflip: True
+        rotate: 15
+        normalize: [[0.4914, 0.4822, 0.4465], [0.2023, 0.1994, 0.2010]]
+
+# Model parameters
+model:
+    name: vgg16_selfconfid_cloning
+    resume: YOUR PATH/confidnet/pretrained_models/cifar10_pretrained/baseline/model_epoch_197.ckpt
+    uncertainty: YOUR PATH/confidnet/pretrained_models/cifar10_pretrained/uncertainty.ckpt
+

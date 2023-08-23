@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python train_meta.py -c ./confs/exp_mnist_meta.yaml -f
