@@ -35,7 +35,7 @@ If you find this code useful for your research, please please consider citing:
 
 2. Replace to original confidnet folder in [ConfidNet](https://github.com/valeoai/ConfidNet) with the confidnet folder in this repo.
    
-3. Put folders in this [link](https://drive.google.com/drive/folders/1I9Ui9yXY9lesDvZHI9jruANZ1avtyKJi?usp=sharing) under folder pretrained_models.
+3. Create a pretrained_models folder under the confidnet folder and put all stuffs in this [link](https://drive.google.com/drive/folders/1I9Ui9yXY9lesDvZHI9jruANZ1avtyKJi?usp=sharing) under folder pretrained_models.
 
 4. Follow the installation instructions in [ConfidNet](https://github.com/valeoai/ConfidNet).
 
