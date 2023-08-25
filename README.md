@@ -22,15 +22,12 @@ Besides, this project is based on [ConfidNet](https://github.com/valeoai/ConfidN
 
 
 ```
-@incollection{NIPS2019_8556,
-   title = {Addressing Failure Prediction by Learning Model Confidence},
-   author = {Corbi\`{e}re, Charles and THOME, Nicolas and Bar-Hen, Avner and Cord, Matthieu and P\'{e}rez, Patrick},
-   booktitle = {Advances in Neural Information Processing Systems 32},
-   editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
-   pages = {2902--2913},
-   year = {2019},
-   publisher = {Curran Associates, Inc.},
-   url = {http://papers.nips.cc/paper/8556-addressing-failure-prediction-by-learning-model-confidence.pdf}
+@article{corbiere2019addressing,
+  title={Addressing failure prediction by learning model confidence},
+  author={Corbi{\`e}re, Charles and Thome, Nicolas and Bar-Hen, Avner and Cord, Matthieu and P{\'e}rez, Patrick},
+  journal={Advances in Neural Information Processing Systems},
+  volume={32},
+  year={2019}
 }
 ```
 
